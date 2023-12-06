@@ -22,5 +22,7 @@ calculate.addEventListener('click', function () {
     document.querySelector('.category').innerHTML = 'You are Obese';
   }
 
-  reload.addEventListener('click', function () {});
+  reload.addEventListener('click', function () {
+     location.reload()
+  });
 });
