@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Caluclator</title>
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-bar">
+        <h1>BMI Calculator</h1>
+        <ul>
+          <li>
+            <a href="https://sujitsingh.netlify.app/" target="_blank">Home</a>
+          </li>
+          <li>
+            <a href="https://sujitsingh.netlify.app/#projects" target="_blank"
+              >Other Projects</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <div class="inputs">
+          <p class="height-title">Please enter height</p>
+          <input type="number" id="height" placeholder="Height in cms" />
+        </div>
+        <div class="inputs">
+          <p class="weight-title">Please enter weight</p>
+          <input type="number" id="weight" placeholder="Weight in Kgs" />
+        </div>
+        <button id="calculate">Caluclator</button>
+        <button id="reload">Reload</button>
+
+        <div class="output">
+          <p id="bmi-output"></p>
+          <h4 id="desc-output"></h4>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <ul class="footer-socials">
+          <li>
+            <a
+              href="mailto:sujitsingh08@gmail.com"
+              class="contact-list-item"
+              target="_blank"
+            >
+              <i class="uil uil-envelope"></i>
+            </a>
+          </li>
+
+          <a
+            href="https://github.com/sujitsingh08rdm"
+            class="contact-list-item"
+            target="_blank"
+            ><i class="uil uil-github-alt"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/sujitsingh08rdm/"
+            class="contact-list-item"
+            target="_blank"
+            ><i class="uil uil-linkedin-alt"></i
+          ></a>
+        </ul>
+        <div class="footer-copyright">
+          2024 Sujit &copy; All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
